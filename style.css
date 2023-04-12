@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Beer";
+    src: url("./fonts/beer-money12.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Beer";
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    font-family: "Beer";
+}
+
+.weather-input {
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+.loader {
+    margin-top: 15px;
+    width: 100px;
+}
+
+.weather-button {
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+.weather-details-block {
+    width: 900px;
+    height: 450px;
+    box-shadow: 0px 0px 50px black;
+    margin-top: 40px;
+}
+
+.weather-img {
+    width: 280px;
+    height: 280px;
+}
+
+.weather-information-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.weather-text {
+    font-size: 40px;
+}
+
+.weather-description {
+    font-size: 30px;
+}
+
+.weather-text-block {
+    font-size: 30px;
+}
+
+
+
+.hide {
+    display: none;
+
+}

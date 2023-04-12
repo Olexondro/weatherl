@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Погодный определятор</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <h1 class="title"> ПОГОДНЫЙ ОПРЕДЕЛЯТОР 1.0</h1>
+            <input type="text" class="weather-input" id="weatherInput" placeholder="Cити или таун"> 
+            <button class="weather-button" id="weatherButton">Определить какую-то weather</button>
+        </div>
+        <img src="img/icons8-spinner.gif" alt="" id="loader" class="loader hide">
+        <div class="weather-details-block">
+            <h1 id="city">Сити или таун</h1>
+
+            <div class="weather-information-block">
+                <div class="weather-img-block">
+                    <img id="weatherImg" src="img/s-l400.jpg" alt="" class="weather-img">
+                    <h2 id="weatherDescription" class="weather-description">Погодные условия</h2>
+                </div>
+                
+                <div class="weather-text-block">
+                    <p id="temperature" class="weather-text">Температура</p>
+                    <p id="humidity" class="weather-text">Влажность</p>
+                    <p id="pressure" class="weather-text">Давление</p>
+                    <p id="tempMax"class="tempMax">Макс. температура</p>
+                    <p id="tempMin"class="tempMin">Мин. температура</p>
+                </div>
+
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
